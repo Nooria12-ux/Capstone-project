@@ -12,15 +12,15 @@ p {
   background-attachment: fixed;
 }
 .pimg1 {
-  background-image: url("https://www.kuonitumlare.com/documents/621599/1210980/Japan_banner.jpg");
+  background-image: url("https://cdn.prod.website-files.com/6344c9cef89d6f2270a38908/65f2215bcb94d4592f844920_7%2B%20Best%20Web%20Development%20Frameworks%20to%20Use%20in%202024.webp");
   min-height: 400px;
 }
 .pimg2 {
-  background-image: url("https://images.travelandleisureasia.com/wp-content/uploads/sites/3/2023/12/22143559/castle.jpg");
+  background-image: url("https://learnobots.com/wp-content/uploads/2021/04/What-is-coding-600x397.jpg");
   min-height: 400px;
 }
 .pimg3 {
-  background-image: url("https://avgtravels.com/au/wp-content/uploads/sites/2/1-14.png");
+  background-image: url("https://codeop.tech/wp-content/uploads/2023/10/chris-ried-ieic5Tq8YMk-unsplash-scaled.jpg");
   min-height: 400px;
 }
 .section {
@@ -28,7 +28,7 @@ p {
   padding: 50px 80px;
 }
 .section-dark {
-  background-color: rgb(59, 3, 111);
+  background-color: rgb(4, 7, 82);
   color: #ddd;
 }
 .ptext {
@@ -49,6 +49,57 @@ p {
 }
 @media (max-width: 568px) {
   .pimg1 .pimg2 .pimg3 {
+    background-attachment: scroll;
+  }
+}
+.pic1,
+.pic2,
+.pic3 {
+  position: relative;
+  opacity: 0.7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.pic1 {
+  background-image: url("https://aithailand.co.th/wp-content/uploads/2024/09/DM-01_1630551951-1024x717.png");
+  min-height: 400px;
+}
+.pic2 {
+  background-image: url("https://cdn.shopify.com/s/files/1/0632/4840/0639/files/The_A_to_Z_of_Painting_Styles_Techniques_and_Movements_1.jpg?v=1688531893");
+  min-height: 400px;
+}
+.pic3 {
+  background-image: url("https://alwaysdial.com/uploads/blog/7ec9d441f4bac142dd263161da1d22f6.jpg");
+  min-height: 400px;
+}
+.section {
+  text-align: center;
+  padding: 50px 80px;
+}
+.section-dark {
+  background-color: rgba(4, 56, 82, 0.488);
+  color: #ddd;
+}
+.mytext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+.mytext .border {
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+  opacity: 0.7;
+}
+@media (max-width: 568px) {
+  .pic1 .pic2 .pic3 {
     background-attachment: scroll;
   }
 }
