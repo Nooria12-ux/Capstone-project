@@ -1,0 +1,54 @@
+p {
+  font-size: 20px;
+}
+.pimg1,
+.pimg2,
+.pimg3 {
+  position: relative;
+  opacity: 0.7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.pimg1 {
+  background-image: url("https://www.kuonitumlare.com/documents/621599/1210980/Japan_banner.jpg");
+  min-height: 400px;
+}
+.pimg2 {
+  background-image: url("https://images.travelandleisureasia.com/wp-content/uploads/sites/3/2023/12/22143559/castle.jpg");
+  min-height: 400px;
+}
+.pimg3 {
+  background-image: url("https://avgtravels.com/au/wp-content/uploads/sites/2/1-14.png");
+  min-height: 400px;
+}
+.section {
+  text-align: center;
+  padding: 50px 80px;
+}
+.section-dark {
+  background-color: rgb(59, 3, 111);
+  color: #ddd;
+}
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+.ptext .border {
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+  opacity: 0.7;
+}
+@media (max-width: 568px) {
+  .pimg1 .pimg2 .pimg3 {
+    background-attachment: scroll;
+  }
+}
