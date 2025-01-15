@@ -12,17 +12,14 @@ p {
   background-attachment: fixed;
 }
 .pimg1 {
-  background-image: url("https://cdn.prod.website-files.com/6344c9cef89d6f2270a38908/65f2215bcb94d4592f844920_7%2B%20Best%20Web%20Development%20Frameworks%20to%20Use%20in%202024.webp");
+  background-image: url("Me.jpg");
   min-height: 400px;
 }
 .pimg2 {
-  background-image: url("https://learnobots.com/wp-content/uploads/2021/04/What-is-coding-600x397.jpg");
+  background-image: url("https://c0.wallpaperflare.com/preview/944/356/969/concept-construction-page-site.jpg");
   min-height: 400px;
 }
-.pimg3 {
-  background-image: url("https://codeop.tech/wp-content/uploads/2023/10/chris-ried-ieic5Tq8YMk-unsplash-scaled.jpg");
-  min-height: 400px;
-}
+
 .section {
   text-align: center;
   padding: 50px 80px;
@@ -48,7 +45,7 @@ p {
   opacity: 0.7;
 }
 @media (max-width: 568px) {
-  .pimg1 .pimg2 .pimg3 {
+  .pimg1 .pimg2 {
     background-attachment: scroll;
   }
 }
@@ -63,15 +60,15 @@ p {
   background-attachment: fixed;
 }
 .pic1 {
-  background-image: url("https://aithailand.co.th/wp-content/uploads/2024/09/DM-01_1630551951-1024x717.png");
+  background-image: url("Me.jpg");
   min-height: 400px;
 }
 .pic2 {
-  background-image: url("https://cdn.shopify.com/s/files/1/0632/4840/0639/files/The_A_to_Z_of_Painting_Styles_Techniques_and_Movements_1.jpg?v=1688531893");
+  background-image: url("My\ family.jpg");
   min-height: 400px;
 }
 .pic3 {
-  background-image: url("https://alwaysdial.com/uploads/blog/7ec9d441f4bac142dd263161da1d22f6.jpg");
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQThHslGkYuOwTRMtdqUG1eT8mZtOEQg6UlyOE8mAiw9c1C_UwmFfF2dCpDbIlGGwbuT0I&usqp=CAU");
   min-height: 400px;
 }
 .section {
@@ -103,9 +100,11 @@ p {
     background-attachment: scroll;
   }
 }
-.img1,
-.img2,
-.im3 {
+.on1,
+.on2,
+.on3,
+.on4,
+.on5 {
   position: relative;
   opacity: 0.7;
   background-position: center;
@@ -113,16 +112,24 @@ p {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-.img1 {
-  background-image: url("https://w0.peakpx.com/wallpaper/832/433/HD-wallpaper-technology-code-python-programming-language-coding.jpg");
+.on1 {
+  background-image: url("Fariba.jpg");
   min-height: 400px;
 }
-.img2 {
-  background-image: url("https://www.hbs.edu/socialenterprise/wp-content/uploads/2021/08/2019%20End%20of%20Year-scaled.jpeg");
+.on2 {
+  background-image: url("Lazara.jpg");
   min-height: 400px;
 }
-.img3 {
-  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/031/696/948/small_2x/female-surgeon-at-work-doctor-medical-worker-female-laboratory-assistant-in-blue-medical-overalls-cap-mask-and-gloves-at-work-hospital-medical-work-biochemical-research-ai-generated-photo.jpeg");
+.on3 {
+  background-image: url("Abiat.jpg");
+  min-height: 400px;
+}
+.on4 {
+  background-image: url("Parisha.jpg");
+  min-height: 400px;
+}
+.on5 {
+  background-image: url("Rudaina.jpg");
   min-height: 400px;
 }
 .section {
@@ -133,7 +140,7 @@ p {
   background-color: rgba(4, 56, 82, 0.488);
   color: #ddd;
 }
-.mytext {
+.mtext {
   position: absolute;
   top: 50%;
   width: 100%;
@@ -143,14 +150,116 @@ p {
   letter-spacing: 8px;
   text-transform: uppercase;
 }
-.mytext .border {
+.mtext .border {
   background-color: #111;
   color: #fff;
   padding: 20px;
   opacity: 0.7;
 }
 @media (max-width: 568px) {
-  .pic1 .pic2 .pic3 {
+  .on1 .on2 .on3 .on4 .on5 {
+    background-attachment: scroll;
+  }
+}
+.photo1,
+.photo2,
+.photo3 {
+  position: relative;
+  opacity: 0.7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.photo1 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdYmNMl7sIuE3_zekAtL60wRtW_FrodgeG8g&s");
+  min-height: 400px;
+}
+.photo2 {
+  background-image: url("https://wallpapercat.com/w/full/5/a/e/698172-2560x1369-desktop-hd-harvard-university-background.jpg");
+  min-height: 400px;
+}
+.photo3 {
+  background-image: url("https://www.mua.edu/uploads/sites/10/2023/02/different-types-of-surgeon.webp");
+  min-height: 400px;
+}
+.section {
+  text-align: center;
+  padding: 50px 80px;
+}
+.section-dark {
+  background-color: rgba(4, 56, 82, 0.488);
+  color: #ddd;
+}
+.ctext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+.ctext .border {
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+  opacity: 0.7;
+}
+@media (max-width: 568px) {
+  .photo1 .photo2 .photo3 {
+    background-attachment: scroll;
+  }
+}
+.stc1,
+.stc2,
+.stc3 {
+  position: relative;
+  opacity: 0.7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.stc1 {
+  background-image: url("jamidar\ bar.jpg");
+  min-height: 400px;
+}
+.stc2 {
+  background-image: url("shonshod\ bhaban.jpg");
+  min-height: 400px;
+}
+.stc3 {
+  background-image: url("padma\ sethu.jpg");
+  min-height: 400px;
+}
+.section {
+  text-align: center;
+  padding: 50px 80px;
+}
+.section-dark {
+  background-color: rgba(4, 56, 82, 0.488);
+  color: #ddd;
+}
+.dtext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+.dtext .border {
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+  opacity: 0.7;
+}
+@media (max-width: 568px) {
+  .stc1 .stc2 .stc3 {
     background-attachment: scroll;
   }
 }
